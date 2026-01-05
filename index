@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IRCTC Login</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="card">
+        <div class="logo">IRCTC Login</div>
+        <div class="subtitle">Sign in to continue booking</div>
+
+        <label>Username</label>
+        <input type="text" id="user" placeholder="Enter Username" />
+
+        <label>Password</label>
+        <input type="password" id="pass" placeholder="Enter Password" />
+
+        <button class="btn" onclick="login()">SIGN IN</button>
+        <div class="msg" id="msg"></div>
+
+        <div class="extra">
+            New to IRCTC? <a href="#">Register</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

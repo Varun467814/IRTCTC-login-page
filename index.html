@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Login Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC Logo">
+        <h2>IRCTC Login</h2>
+    </div>
+
+    <form id="loginForm">
+
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <label>Captcha</label>
+        <div class="captcha-box">
+            <span id="captchaText"></span>
+            <button type="button" id="refreshCaptcha">↻</button>
+        </div>
+        <input type="text" id="captchaInput" placeholder="Enter captcha" required>
+
+        <button type="submit" class="btn">SIGN IN</button>
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
